@@ -9,4 +9,12 @@ fun main(args:Array<String>){
 
     print("Hi Otis, ")
     print("Welcome to Kotlin")
+
+
+//        changeable
+    var x = 10
+
+
+    //    unchangeable (constant)
+    val y = 10
 }
