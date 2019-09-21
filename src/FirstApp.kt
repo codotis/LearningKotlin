@@ -1,14 +1,14 @@
 
 fun main(args:Array<String>){
 
-    println("Hi Otis, \n")
-    println("Welcome to Kotlin")
-
-    println("Hi Otis, ")
-    println("Welcome to Kotlin")
-
-    print("Hi Otis, ")
-    print("Welcome to Kotlin")
+//    println("Hi Otis, \n")
+//    println("Welcome to Kotlin")
+//
+//    println("Hi Otis, ")
+//    println("Welcome to Kotlin")
+//
+//    print("Hi Otis, ")
+//    print("Welcome to Kotlin")
 
 
 //        changeable
@@ -20,10 +20,10 @@ fun main(args:Array<String>){
 
 
 //    variable recognizes that it is storing a string
-    var name = "Otis"
+    val name = "Otis"
 
 //    this variable can only be a string. (however doesn't have to have its datatype defined)
-    var surname:String = "Otis"
+    var surname:String = "Vickers-Graver"
 
 //    this variable can only be a number. (however doesn't have to have its datatype defined)
     var age:Int = 25
@@ -31,7 +31,14 @@ fun main(args:Array<String>){
 
 //    question mark here - kotlin understands that this variable accepts null values (if this variable does not have a value, it will default to null)
 //     needs to have datatype defined (in this case, string)
-    var child:String?
+    var childname:String?
 
-    child = "Hero"
+    childname = "Hero"
+
+    println("name: " + name)
+    println("surname: " + surname)
+    println("age: " + age)
+    println("childname: " + childname)
+
+
 }
