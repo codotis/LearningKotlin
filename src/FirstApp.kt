@@ -17,4 +17,21 @@ fun main(args:Array<String>){
 
     //    unchangeable (constant)
     val y = 10
+
+
+//    variable recognizes that it is storing a string
+    var name = "Otis"
+
+//    this variable can only be a string. (however doesn't have to have its datatype defined)
+    var surname:String = "Otis"
+
+//    this variable can only be a number. (however doesn't have to have its datatype defined)
+    var age:Int = 25
+
+
+//    question mark here - kotlin understands that this variable accepts null values (if this variable does not have a value, it will default to null)
+//     needs to have datatype defined (in this case, string)
+    var child:String?
+
+    child = "Hero"
 }
