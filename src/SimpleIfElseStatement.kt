@@ -21,9 +21,11 @@ fun main(args:Array<String>) {
 
     if (trainers >= 0 && trainers < 5) {
         println("Small but sweet. Unless you don't own any, then I guess you prefer a different style")
+    } else {
+        println("A negative amount of trainers? Either you've made a typo or someones stolen your sneaks!")
     }
 
-    
+
 
 
 }
